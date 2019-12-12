@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<HTML>
+
+    <HEAD>
+        <STYLE>
+
+            table {margin: auto;}
+            input {text-align: right;}
+        </STYLE>
+    
+    <script type="TEXT/JAVASCRIPT">
+        function calc(click_id) {
+            var val1= parseFloat(document.getElementById("val1").value);
+            var val2= parseFloat(document.getElementById("val2").value);
+
+            if (isNaN(val1) || isNaN(val2)) {
+                alert("Enter Valid Number:");
+            }
+
+            else if (click_id =="add") {
+                document.getElementById("answer").value= val1+val2;
+            }
+
+            else if (click_id =="sub") {
+                document.getElementById("answer").value= val1-val2;
+            }
+
+            else if (click_id =="mul") {
+                document.getElementById("answer").value= val1*val2;
+            }
+
+            else if (click_id =="div") {
+                document.getElementById("answer").value= val1/val2;
+            }
+        }
+
+        function cls() {
+            val1.value= "0";
+            val2.value= "0";
+            answer.value= "";
+        }
+    </script>
+    </HEAD>
+
+    <body>
+        <table>
+            <tr> <th colspan="4" >SIMPLE CALCY</th> </tr>
+
+            <tr><td>Value1:</td>
+                <td><input type="text" id="val1" value="0"/></td>
+            </tr>
+
+            <tr><td>Value2:</td>
+                <td><input type="text" id="val2" value="0"/></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="ADD" id="add" onclick="calc(this.id)"></td>
+                <td><input type="button" value="SUB" id="sub" onclick="calc(this.id)"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="MUL" id="mul" onclick="calc(this.id)"></td>
+                <td><input type="button" value="DIV" id="div" onclick="calc(this.id)"></td>
+            </tr>
+
+            <tr><td>ANSWER:</td>
+                <td><input type="text" id="answer" value="" disabled/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="CLEAR ALL" onclick="cls()"></td>
+            </tr>
+            
+        </table>
+    </body>

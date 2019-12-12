@@ -1,0 +1,64 @@
+<?xml-stylesheet type= "text/css" href= "Prg5.css" ?>
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <h1>STUDENTS DESCR:</h1>
+    </head>
+
+    <students>
+        <student>
+            <USN>   USN:    1DT16cs082  </USN>
+            <name>  Name:   WOLVIE  </name>
+            <college>   College:    DSATM   </college>
+            <branch>    Branch: CSE </branch>
+            <year>  Year: 2016  </year>
+            <email> sachinsksm@gmail.com    </email>
+        </student>
+
+        <student>
+            <USN>   USN:    1DT16cs082  </USN>
+            <name>  Name:   WOLVIE  </name>
+            <college>   College:    DSATM   </college>
+            <branch>    Branch: CSE </branch>
+            <year>  Year: 2016  </year>
+            <email> sachinsksm@gmail.com    </email>
+        </student>
+
+        <student>
+            <USN>   USN:    1DT16cs082  </USN>
+            <name>  Name:   WOLVIE  </name>
+            <college>   College:    DSATM   </college>
+            <branch>    Branch: CSE </branch>
+            <year>  Year: 2016  </year>
+            <email> sachinsksm@gmail.com    </email>
+        </student>
+
+        <student>
+            <USN>   USN:    1DT16cs082  </USN>
+            <name>  Name:   WOLVIE  </name>
+            <college>   College:    DSATM   </college>
+            <branch>    Branch: CSE </branch>
+            <year>  Year: 2016  </year>
+            <email> sachinsksm@gmail.com    </email>
+        </student>
+
+        <student>
+            <USN>   USN:    1DT16cs082  </USN>
+            <name>  Name:   WOLVIE  </name>
+            <college>   College:    DSATM   </college>
+            <branch>    Branch: CSE </branch>
+            <year>  Year: 2016  </year>
+            <email> sachinsksm@gmail.com    </email>
+        </student>
+
+        <student>
+            <USN>   USN:    1DT16cs082  </USN>
+            <name>  Name:   WOLVIE  </name>
+            <college>   College:    DSATM   </college>
+            <branch>    Branch: CSE </branch>
+            <year>  Year: 2016  </year>
+            <email> sachinsksm@gmail.com    </email>
+        </student>
+    </students>
+</html>

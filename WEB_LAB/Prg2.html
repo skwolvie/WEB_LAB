@@ -1,0 +1,23 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <style>
+            table, tr, td {
+                border: solid black;
+                border-collapse: collapse; 
+                width: 40%;
+                text-align: center;
+            }
+            table {margin: auto;}
+        </style>
+    </head>
+
+    <script type="text/javascript">
+        document.write("<table> <tr> <th colspan= '4'> NOS from 0 to 10 with their squares and cubes </th> </tr>");
+        document.write("<tr>  <td>No</td>  <td>Sq</td>  <td>Cube</td>  </tr>");
+        for (var n = 0; n <= 10; n++) {
+            document.write("<tr><td>" +n+ "</td><td>" +n*n+ "</td><td>" +n*n*n+ "</td></tr>");            
+        }
+        document.write("</table>");
+    </script>
+</html>
